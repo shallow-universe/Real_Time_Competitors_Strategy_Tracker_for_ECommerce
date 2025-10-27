@@ -59,7 +59,7 @@ An advanced **Streamlit + FastAPI** application that combines **web scraping, ma
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/price-intelligence-dashboard.git
+git clone https://github.com/shallow-universe/Real_Time_Competitors_Strategy_Tracker_for_ECommerce.git
 cd price-intelligence-dashboard
 2️⃣ Create and Activate Virtual Environment
 bash
@@ -107,9 +107,9 @@ It uses Random Forest Regressor and Gradient Boosting Regressor, combined via we
 
 
 🧑‍💻 Author
-Dev Shyara
+Kripansh Kumrawat
 
-📧 vasudevahir2006@gmail.com
+📧 kripanshkumrawat@gmail.com
 
 📜 License
 This project is licensed under the MIT License – free to use, modify, and distribute with attribution.
