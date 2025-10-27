@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=sqlite:///./data/tracker.db
+    volumes:
+      - ./data:/app/data
+    command: sh -c "python main.py & streamlit run streamlit_app.py"
+    
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
